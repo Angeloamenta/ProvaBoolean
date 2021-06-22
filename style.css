@@ -1,0 +1,86 @@
+body{
+color: white;
+background-image: url('sfondo.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: contain;
+background-color: rgba(0, 0, 0, 0.8);
+font-size: 20px;
+padding: 3px;
+margin: 30px;
+}
+.contenitore{
+   width:1000px;
+   height: 800px;
+   margin: 0 auto;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+}
+
+.contenitore-interno{
+  padding: 10%;
+}
+
+.logo-inizio{
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.titolo1{
+  color: lime;
+  text-align: center;
+}
+
+.bottoni{
+  background-color: lime;
+  padding: 1px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+
+
+}
+span> button{
+  font-size: 15px;
+}
+
+
+.stato-carica1 {
+  	width:200px;
+  	height:25px;
+  	background:#ECB44C;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.stato-carica2 {
+  	width:400px;
+  	height:25px;
+  	background:lime;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .stato-carica3 {
+  	width:100px;
+  	height:25px;
+  	background: #FC4D3E;
+    border-radius: 5px;
+  }
+
+  .testo-piccolo, .testo-piccolo2{
+    font-size: 15px;
+  }
+
+
+
+  .testo-piccolo, .testo-piccolo2, .titolo1 {
+    font-family: cursive;
+  }
+
+.monopattino{
+  font-size: 30px;
+  font-family: cursive;
+}
